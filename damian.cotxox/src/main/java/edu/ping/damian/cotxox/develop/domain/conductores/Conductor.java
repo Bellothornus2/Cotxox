@@ -17,9 +17,6 @@ public class Conductor {
         this.NOMBRE = nombre;
     }
     //getters
-    public boolean getOcupado(){
-        return this.ocupado;
-    }
     public String getNombre(){
         return this.NOMBRE;
     }

@@ -15,7 +15,7 @@ public class PoolConductores {
     public Conductor asignarConductor(){
         Conductor elelegido = null;
         for (Conductor conductor : pool){
-            if (conductor.getOcupado() == false){
+            if (conductor.isOcupado() == false){
                 conductor.setOcupado(true);
                 elelegido = conductor;
                 break;
