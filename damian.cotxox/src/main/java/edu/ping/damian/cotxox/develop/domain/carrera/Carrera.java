@@ -12,7 +12,6 @@ public class Carrera {
     private String destino = "";
     private double distancia = 0.0d;
     private int tiempoEsperadoMinutos = 0;
-    private int tiempoCarrera = 0;
     private double costeTotal = 0.0d;
     private Conductor conductor = null;
 
