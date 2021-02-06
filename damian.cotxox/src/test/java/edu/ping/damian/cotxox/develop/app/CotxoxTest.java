@@ -1,4 +1,4 @@
-package edu.ping.damian.cotxox.develop;
+package edu.ping.damian.cotxox.develop.app;
 
 import static org.junit.Assert.assertTrue;
 
@@ -7,11 +7,9 @@ import org.junit.Test;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class CotxoxTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+    
     @Test
     public void shouldAnswerWithTrue()
     {
